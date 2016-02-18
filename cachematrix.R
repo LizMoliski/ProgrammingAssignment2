@@ -1,11 +1,11 @@
-## makeCacheMatrix creates a special "matrix", which is really a list containing 
-## a function to do the following:
-##  1. set the value of the matrix
-##  2. get the value of the matrix
-##  3. set the value of the inverse matrix
-##  4. get the value of the inverse matrix
-## Note that there is NO ERROR CHECKING. This function assumes that an invertible
-## square, numeric matrix will be passed ot it.
+##  makeCacheMatrix creates a special "matrix", which is really a list containing 
+##  a function to do the following:
+##      1. set the value of the matrix
+##      2. get the value of the matrix
+##      3. set the value of the inverse matrix
+##      4. get the value of the inverse matrix
+##  Note that there is NO ERROR CHECKING. This function assumes that an invertible
+##  square, numeric matrix will be passed ot it.
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
